@@ -1,0 +1,18 @@
+{
+  "name": "hello-debugger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.3",
+    "ts-node": "^10.7.0"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+"type-check": "tsc -noEmit --skipLibCheck"
+  }
+}
